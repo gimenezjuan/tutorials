@@ -11,7 +11,6 @@
 	<p><strong>Porcentaje de Retención:</strong> ${percentage}</p>
 
 	<%
-		// Calcula la cantidad después de aplicar el porcentaje de retención
 		double netAmount = (Double.parseDouble(request.getAttribute("amount").toString())) * (1 - Double.parseDouble(request.getAttribute("percentage").toString()));
 	%>
 
