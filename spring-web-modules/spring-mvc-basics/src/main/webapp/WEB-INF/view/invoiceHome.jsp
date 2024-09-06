@@ -8,7 +8,7 @@
 <body>
 	<h3>Bienvenido, Introduzca los detalles de la Factura</h3>
 
-	<form:form method="POST" action="/invoice/addInvoice" modelAttribute="invoice">
+	<form:form method="POST" action="/spring-mvc-basics/addInvoice" modelAttribute="invoice">
 		<table>
 			<tr>
 				<td><form:label path="concept">Concepto</form:label></td>
